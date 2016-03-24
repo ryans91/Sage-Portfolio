@@ -1,0 +1,321 @@
+html {
+	width:1920px;
+	margin:auto;
+}
+
+h1 {
+	font-size:40px;
+	text-align:center;
+	margin-top:40px;
+}
+
+header {
+	height:100%;
+	margin:auto;
+	height:70px;
+	background-color:white;
+}
+
+.navbar {
+	text-align:center;
+	width:1500px;
+	margin:auto;
+	float:bottom;
+	background-color:blue;
+}
+
+.navbar ul {
+	float:right;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header img {
+	float:left;
+}
+
+.navbar li {
+	color:black;
+	display:inline-block;	
+	margin-right:40px;
+	margin-top:30px;
+}
+
+nav .active a {
+	color:#f63c3c;;
+}
+
+nav .active{
+	border-bottom:7px solid #f63c3c;
+	padding-bottom:18px;
+}
+
+.hero {
+	margin:auto;
+	text-align:center;
+	background-image: url('../img/header_background.jpg');
+	height:1000px;
+	width:1920px;
+	background-size:100%;
+	background-repeat:none;
+}
+
+a {
+	text-decoration:none;
+	color:grey;
+}
+
+.hero li {
+	display:none;
+}
+
+.hero li.active{
+	display:inline;
+}
+
+.hero h1 {
+	color:white;
+	padding-top:200px;
+	font-size:120px;
+	text-transform:uppercase;
+	width:1200px;
+	font-family: 'Teko', sans-serif;
+	margin:auto;
+}
+
+.hero p {
+	padding-top:30px;
+	color:white;
+	font-size:22px;
+}
+
+.hero a {
+	width:230px;
+	height:50px;
+	background-color:white;
+	margin:auto;
+	font-size:20px;
+	display:block;
+	padding-top:15px;
+	text-align:center;
+	margin-top:50px;
+}
+
+.hero a:hover {
+	color:white;
+	background-color:red;
+}
+
+.activebar li {
+	border-bottom:5px solid #f63c3c;
+	padding-bottom:18px;
+}
+
+
+
+.myprojects {
+	text-align:center;
+}
+
+figcaption {
+	display:none;
+}
+
+.myprojects img{
+	width:930px;
+	height:500px;
+	margin-bottom:25px;
+}
+
+.myprojects h1 {
+	font-size:40px;
+	margin-top:50px;
+	font-family: 'Teko', sans-serif;
+}
+
+.myprojects h2 {
+	font-family:'teko',sans-serif;
+	color:black;
+	font-size:30px;
+}
+
+.myprojects p {
+	font-size:14px;
+	margin-top:20px;
+	font-family: 'Teko', sans-serif;
+	
+}
+
+
+.models, .stuhrling {
+	float:left;
+	margin-left:20px;
+}	
+
+.discovery, .infinity_spaces {
+	float:right;
+	margin-right:20px;
+}
+
+.models, .discovery {
+	padding-top:50px;
+}
+
+.stuhrling, .infinity_spaces {
+	padding-top:30px;
+}
+
+.showmore {
+	clear:both;
+	display:block;
+	padding-top:70px;
+	border-bottom:2px solid red;
+	padding-bottom:10px;
+	width:200px;
+	margin:auto;
+}
+
+.showmore a {
+	color:#f63c3c;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.showmore a:hover{
+	color:white;
+	background-color:red;
+}
+
+.getintouch {
+	text-align:center;
+	height:240px;
+	background-color:#f63c3c;
+	color:white;
+}
+
+.getintouch h1{
+	padding-top:50px;
+	font-family: 'Teko', sans-serif;
+
+}
+
+.getintouch p{
+	margin-top:20px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.getintouch a {
+	background-color:white;
+	display:block;
+	height:50px;
+	width:270px;
+	margin:auto;
+	padding-top:20px;
+	margin-top:20px;
+	font-family: 'Teko', sans-serif;
+
+}
+
+
+.connect {
+	width:1170px;
+	margin:auto;
+}
+
+.connect h1 {
+	text-align:left;
+	font-family: 'Teko', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+.connect p {
+	margin-top:20px;
+	font-size:20px;
+}
+
+.connect li {	
+width:270px;
+height:195px;
+margin:auto;
+background-color:#30282a;
+display:inline-block;
+margin-right:18px;
+margin-top:55px;
+text-align:center;
+}
+
+.connect a {
+	color:white;
+	font-family: 'Teko', sans-serif;
+
+}
+
+
+.connect i{
+	font-size:60px;
+	margin-top:45px;
+}
+
+.connect h3 {
+	margin-top:20px;
+	font-size:30px;
+}
+
+footer {
+	font-size:13px;
+	width:1170px;
+	margin:auto;
+	margin-top:80px;
+	margin-bottom:40px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.hover {
+	margin:none;
+	width:930px;
+	height:500px;
+	background-color:red;
+	position:absolute;
+	display:none;
+	padding-top:80px;
+	color:white;
+}
+
+
+figure:hover .hover {
+	display:block;
+}
+
+.tesla {
+	position:relative;
+}
+
+.markers {
+        margin-top: 180px;
+        bottom: 5px;
+}
+
+.markers li {
+    background-color: #fff;
+    padding: 2px 16px;
+    margin: 2px;
+    display: inline-block;
+    opacity: .2;
+  	margin-top:100px;
+}
+
+.markers li.active2 {
+    display: inline-block;
+    opacity: 1;
+}
+
+.navbar a:hover{
+	color:red;
+}
+
+.connect a:hover {
+	color:red;
+}

@@ -1,0 +1,15 @@
+body {
+	width:1920px;
+}
+
+header {
+	height:70px;
+	background-color:blue;
+	margin:auto;
+}
+
+.navbar li {
+	width:1200px;
+	background-color:green;
+	display:inline;	
+}

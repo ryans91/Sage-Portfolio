@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="4" viewBox="0 0 40 4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f63c3c;
+      }
+    </style>
+  </defs>
+  <rect id="Active_Menu_Item" data-name="Active Menu Item" class="cls-1" width="40" height="4"/>
+</svg>
